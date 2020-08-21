@@ -1,0 +1,15 @@
+{
+    "name": "fernandoquintero/smtpmailer",
+    "description": "PHP package to help you send an email through SMTP",
+    "type": "library",
+    "require": {
+        "snipworks/php-smtp": "^2.0"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "fernandoqueue",
+            "email": "fernando_q89@yahoo.com"
+        }
+    ]
+}
