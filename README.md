@@ -1,6 +1,6 @@
 # SMTP-EMAIL
 
-SMTP-Email is a simple script to help you send an email using an smtp service such as SendGrid or Mailgun. It includes a page where you can customize the html page you send (EmailView.php). 
+SMTP-Email is a simple PHP script to help you send an email using an smtp service such as SendGrid or Mailgun. It includes a page where you can customize the html page you send (EmailView.php). 
 
 ## Installation
 
