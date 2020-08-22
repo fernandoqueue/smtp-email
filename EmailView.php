@@ -1,5 +1,4 @@
 <?php defined('APP_RUNNING') or die('Cannot access script directly'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
