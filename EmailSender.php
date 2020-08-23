@@ -27,7 +27,7 @@ class EmailSender
                    ->addTo(TO_EMAIL, TO_NAME)
                    ->setFrom(FROM_EMAIL, FROM_NAME)
                    ->setSubject(EMAIL_SUBJECT)
-                   ->setHtmlMessage( $this->getView() );
+                   ->setHtmlMessage( $this->getView('EmailView.php') );
 
         return $this;
     }
@@ -41,16 +41,10 @@ class EmailSender
         
     }
     
-    private function getView()
+    private function getView($view)
     {
-        $data = [
-            'name' =>  $this->senderName,
-            'email' => $this->senderEmail,
-            'message' => $this->senderMessage,
-        ];
-
         ob_start();
-        include('EmailView.php');
+        include($view);
         return ob_get_clean();
     }
 

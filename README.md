@@ -30,10 +30,10 @@ define('EMAIL_SUBJECT', 'New Contact Information');
 ## Usage
 Send your form data to ```Send.php``` with input names ```name, email, and message```
 
-When customizing the html the data will be in ```$data``` variable
+When customizing the html, the data will be in class private variable
 For example
 ```php
-$data['name']
+$this->senderName
 ```
 
 ## Contributing

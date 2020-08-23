@@ -8,9 +8,9 @@
 </head>
 <body>
     <h4>You have received new contact information</h4>
-    <p><strong>Name: </strong><?= $data['name'] ?></p>
-    <p><strong>Email: </strong><?= $data['email'] ?></p>
-    <p><strong>Message: </strong><?= $data['message'] ?></p>
+    <p><strong>Name: </strong><?= $this->senderName ?></p>
+    <p><strong>Email: </strong><?= $this->senderEmail ?></p>
+    <p><strong>Message: </strong><?= $this->senderMessage ?></p>
     <em>Thank you for using our email service!</em>
 </body>
 </html>
